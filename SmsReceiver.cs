@@ -21,9 +21,9 @@ namespace ClassicPhone
 
         public override void OnReceive(Context context, Intent intent)
         {
-            
+            Toast.MakeText(context, "Received intent!", ToastLength.Short).Show();
 
-            if (intent.Action == "android.intent.action.DATA_SMS_RECEIVED")
+            if (intent.Action == "android.intent.action.SMS_RECEIVED")
                 Toast.MakeText(context, "Received intent!", ToastLength.Short).Show();
         }
     }
