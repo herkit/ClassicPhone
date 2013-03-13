@@ -54,25 +54,7 @@ namespace ClassicPhone
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int icon = 2130837504;
-			
-			// aapt resource value: 0x7f020001
-			public const int monoandroidsplash = 2130837505;
-			
-			// aapt resource value: 0x7f020002
-			public const int star_logo = 2130837506;
-			
-			// aapt resource value: 0x7f020003
-			public const int widget_bg = 2130837507;
-			
-			// aapt resource value: 0x7f020004
-			public const int widget_bg_normal = 2130837508;
-			
-			// aapt resource value: 0x7f020005
-			public const int widget_bg_pressed = 2130837509;
-			
-			// aapt resource value: 0x7f020006
-			public const int widget_bg_selected = 2130837510;
+			public const int monoandroidsplash = 2130837504;
 			
 			private Drawable()
 			{
@@ -82,15 +64,6 @@ namespace ClassicPhone
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080005
-			public const int bullet = 2131230725;
-			
-			// aapt resource value: 0x7f080006
-			public const int definition = 2131230726;
-			
-			// aapt resource value: 0x7f080003
-			public const int icon = 2131230723;
-			
 			// aapt resource value: 0x7f080001
 			public const int logo = 2131230721;
 			
@@ -99,9 +72,6 @@ namespace ClassicPhone
 			
 			// aapt resource value: 0x7f080000
 			public const int widget = 2131230720;
-			
-			// aapt resource value: 0x7f080004
-			public const int word_title = 2131230724;
 			
 			private Id()
 			{
@@ -119,9 +89,6 @@ namespace ClassicPhone
 			
 			// aapt resource value: 0x7f030002
 			public const int widget_message = 2130903042;
-			
-			// aapt resource value: 0x7f030003
-			public const int widget_word = 2130903043;
 			
 			private Layout()
 			{

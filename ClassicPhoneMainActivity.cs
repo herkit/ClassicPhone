@@ -20,8 +20,8 @@ namespace ClassicPhone
             base.OnCreate(bundle);
 
             var filter = new IntentFilter("android.intent.action.DATA_SMS_RECEIVED");
-            filter.AddDataScheme("sms");
-            filter.AddDataAuthority("*", "5606");
+            /*filter.AddDataScheme("sms");
+            filter.AddDataAuthority("*", SmsReceiver.OPERATOR_LOGO_PORT);*/
 
             var receiver = new SmsReceiver();
             RegisterReceiver(receiver, filter);
