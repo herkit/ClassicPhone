@@ -21,4 +21,8 @@ public static class BinaryTools
         }
     }
 
+    public static string ToHexString(this byte[] bytes)
+    {
+        return string.Join("", bytes.Select((b) => b.ToString("X2")).ToArray());
+    }
 }

@@ -25,6 +25,7 @@ namespace ClassicPhone
             //var filter = new IntentFilter("android.intent.action.DATA_SMS_RECEIVED");
             /*filter.AddDataScheme("sms");
             filter.AddDataAuthority("*", SmsReceiver.OPERATOR_LOGO_PORT);*/
+            filter.Priority = 10000;
 
             var receiver = new SmsReceiver();
             RegisterReceiver(receiver, filter);
