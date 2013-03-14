@@ -3,6 +3,7 @@
 	<uses-sdk android:targetSdkVersion="8" />
 	<application></application>
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.RECEIVE_DATA_SMS" />
   <uses-permission android:name="android.permission.READ_SMS" />
 	<uses-permission android:name="android.permission.SEND_SMS" />
 </manifest>
